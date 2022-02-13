@@ -12,10 +12,13 @@
     "web-vitals": "^2.1.3",
     "prettier": "^2.5.1"
   },
+  "resolutions": {
+    "mini-css-extract-plugin": "2.4.5"
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
+    "test": "react-scripts test --passWithNoTests",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
